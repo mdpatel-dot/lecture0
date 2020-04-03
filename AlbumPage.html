@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+  <html>
+  <meta charset="UTF-8" />
+  <!--<link href="AlbumPage.css" rel="stylesheet" type="text/css" />-->
+  <head>
+  
+  <!-- #F0D965 yellow 
+  #E8964A orange
+  #A67A91 purple
+  #DCE0DF grey
+  #99B6C8 blue -->
+  
+  <style>
+  
+  h1 {
+    text-align: center;
+    font-size: 80px;
+    font-family: Lato, sans-serif;
+    font-weight: 100px;
+    line-height:100px;
+    color: #DCE0DF;
+    z-index: 2;
+  }
+  
+  body {
+    background-color: #99B6C8;
+  }
+  
+  #icons {
+    width: 100%;
+    text-align: center;
+    position: relative;
+    top: -60px;
+  }
+  
+  td {
+    text-align: center;
+  }
+  
+  #banner {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 50px;
+    width: 100%;
+    background-color: #F99273;
+    z-index: 6;
+    border: none;
+    padding: 0px;
+}
+
+
+.dropbtn {
+    background-color: rgba(0,0,0,0);
+    
+    color: white;
+    padding: 0px 16px;
+    font-size: 20px;
+    border: none;
+    font-family: 'Poppins';
+    line-height: 50px;
+    top: 0px;
+}
+
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #DCE0DF;
+    min-width: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;   
+}
+
+
+.dropdown-content a {
+  color: #A67A91;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-family: 'Poppins';
+}
+
+
+<!-- The color of the background of each item list when hovering -->
+.dropdown-content a:hover {
+    background-color: #F90273;
+    color: white;
+    text-align: center;
+    max-width: 100%;
+    font-family: 'Poppins';
+}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+<!--The color of the dropdown button after hover -->
+.dropdown:hover .dropbtn {
+    background-color: #F90273;
+    color: white;
+    /*padding: 0px;
+    line-height: 50px;*/
+}
+
+#img {
+    max-width: 200px ;
+	max-height: 200px ;
+    position: relative;
+    top: 50px;
+    border-radius: 14px;
+    opacity: .75;
+}
+
+#img:hover {
+    opacity: 1.0;
+}
+
+  table.center {
+    margin-left:auto; 
+    margin-right:auto;
+    20px 20px 0px 20px;
+  }
+  
+  
+  p {
+  padding: 20px;
+  
+  }
+  </style>
+  </head>
+  
+  
+  <div id="banner">
+        <table align="center">
+            <thead><tr>
+                <td>
+                <div class="dropdown">
+                 <button class="dropbtn">
+                   Home  </button>
+                  <div class="dropdown-content">
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                  </div>
+                </div>
+                </td>
+                <td>
+                <div class="dropdown">
+                    <button class="dropbtn" style="padding: 0px 60px;">
+                    Albums</button>
+                    <div class="dropdown-content" style="font-size: 18px">
+                        <a href="./fanAffiliated.html" >Fan Affiliated</a>
+                        <a href="./19.html">19</a>
+                        <a href="./Mood.html" >Mood</a>
+                        <a href="./FuckAFriendZone.html" >Fuck a Friend Zone</a>
+                        <a href="./4275.html" >4275</a>
+                        <a href="./LostAtSea2.html" >Lost At Sea 2</a>
+                        <a href="./KingOfR&B.html" >King of R&B</a>
+                        <a href="./ChristmasInDecatur.html" >Christmas in Decatur</a>
+                    </div>
+                </div>
+                </td>
+                <td>
+                <div class="dropdown">
+                  <button class="dropbtn">
+                  Hit Songs</button>
+                  <div class="dropdown-content">
+                    <a href="#">Link 5</a>
+                    <a href="#">Link 6</a>
+                    </div>
+                    </div>
+                    </td>
+                <td>
+                <div class="dropdown">
+                <button class="dropbtn">
+                upcoming concerts</button>
+                <div class="dropdown-content">
+                    <a href="#">Link 7</a>
+                    <a href="#">Link 8</a>
+                    </div>
+                  </div>
+                </td>
+            </tr></thead>
+        </table>
+    </div> 
+    
+  <h1>Albums</h1>
+  <div id="icons" style="{text-align: center;}">
+  <table class="center" >
+  <thead>
+  </thead>
+    <tr>
+        <td><p style="text-align:center;"><img src="https://hw-img.datpiff.com/m6262cf3/Jacquees_Fan_Affiliated_2012-front-large.jpg" alt="centered image" id="img"></p></td>
+        <td><p style="text-align:center;"><img src="https://images.genius.com/c3fb8e2ca823e3702bc4dcb834f63851.1000x1000x1.jpg" alt="centered image" id="img"></p></td>
+        <td><p style="text-align:center;"><img src="https://mixtapemonkey.com/mixtape-covers/1777.jpg" alt="centered image" id="img"></p></td>
+        <td><p style="text-align:center;"><img src="https://hw-img.datpiff.com/mfd68755/Jacquees_DeJ_Loaf_Fuck_A_Friend_Zone-front-large.jpg" alt="centered image" id="img"></p></td>
+    </tr>
+    <tr>
+        <td><p style="text-align:center;"><img src="https://upload.wikimedia.org/wikipedia/en/5/5e/Jacquees_%E2%80%93_4275.png" alt="centered image" id="img"></p></td>
+        <td><p style="text-align:center;"><img src="https://images.genius.com/9150f0f782aa2a615bdc96fe55d5339d.1000x1000x1.jpg" alt="centered image" id="img"></p></td>
+        <td><p style="text-align:center;"><img src="https://media.pitchfork.com/photos/5dcb04412c290700080ad095/1:1/w_320/jacquees_kingof.jpg" alt="centered image" id="img"></p></td>
+        <td><p style="text-align:center;"><img src="https://images.genius.com/2ef89565a615bb1faf7d33f46eb42586.1000x1000x1.jpg" alt="centered image" id="img"></p></td>
+  </table>
+  </div>
+<form method="PUT" action="./formData.html">
+Enter your name:<input type="text" name="fname">
+<br/>
+Enter your age: 
+<input type="text" name="age">
+<br/>
+<input type="submit" value="Submit">
+</form>
+    <input type="checkbox" name = "breakfast" value="songs">Songs <br>
+    <textarea rows="10" cols="30" name="comment"></textarea>
+    
+    
+<a href="https://www.picktime.com/45357ac0-cb69-4021-b8cc-0e23ddd8cb91" class="ptbkbtn" target="_blank" style="float:none;"><img border="none" src="https://www.picktime.com/bookingPage/img/picktime-book-online.png" alt="Book an appointment with House"/></a>
+  
+  </html>
